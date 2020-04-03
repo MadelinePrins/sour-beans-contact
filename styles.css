@@ -1,0 +1,167 @@
+/*
+======================================================
+
+	Project: Sour Beans Contact
+	Description:  CSS Master Stylesheet
+	Author: Madeline Jade Prins
+
+======================================================
+ */
+
+
+
+body {
+	font-family: blox_brkregular;
+}
+
+/*==========================================================================
+						Banner Section Styling
+  =========================================================================*/
+
+/* -------------------------------- Banner Image Styling ------------------------------------- */
+* {
+	margin: 0; /* what removes the padding from around the image */
+	padding: 0;
+}
+
+.contact-page-box {
+	display: block;
+	height: 500px;	
+}
+
+.center-fit {
+	max-width: 100%;
+	margin: auto;
+}
+/* ------------------------------------------- End ---------------------------------------------- */
+/* --------------------------------- Banner Text Styling ----------------------------------- */
+
+.contact-page {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.contact-title {
+	position: absolute;
+	top: 50%;
+ 	left: 50%;
+ 	transform: translate(80%, 170%);
+ 	/*because banner-container's position is relative, 50% of 0 is 0 so we translate to center the text where we want */
+}
+
+.contact-title h1 {
+	font-family: nightmare_codehackregular;
+	font-size: 10vw;
+	white-space: nowrap; /* forces the h1 to display text all in one line */
+}
+/* ------------------------------------------- End ---------------------------------------------- */
+
+/* --------------------------------- Home Button Styling ----------------------------------- */
+
+.home-button {
+	background-color: #d6810b; /*orange button color */
+	padding: 10px 40px; /* spacing around the button */
+	color: #f5dc90; /* text color */
+	font-size: 2vw;
+	float: left;
+	white-space: nowrap;
+	position: absolute; /* since this is a class withinn banner-image-box, it's position is relative to the banner */
+	transform: translate(0, -150%); /* move it up slightly so it intersects with the edge of the banner */
+	left: 10px;
+	font-family: nightmare_codehackregular;
+}
+
+.home-button-container {
+	padding-left: 15px;
+}
+/* ------------------------------------------- End ---------------------------------------------- */
+
+
+
+/*==========================================================================
+						Introduction Section Styling
+  =========================================================================*/
+
+
+/* --------------------------------- Columns ----------------------------------- */
+
+.introduction {
+	position: absolute;
+	height: auto;
+}
+
+.introduction-column-1 {
+	position: absolute;
+	float: left;
+	max-width: 30%;
+
+}
+
+.introduction-column-2 {
+	position: absolute;
+	float: right;
+	max-width: 70%
+}
+/* ------------------------------------------- End ---------------------------------------------- */
+/* --------------------------------- Profile Image ----------------------------------- */
+
+.profile-img {
+	position: absolute;
+	width: 18vw;
+	padding-top: 3vw;
+	padding-left: 7vw;
+	padding-bottom: 5vw;
+}
+
+.questions-title {
+	position: absolute;
+	top: 5vw;
+	left: 31vw;
+}
+
+.questions-title h1{
+	font-size: 6.5vw;
+	white-space: nowrap; /* forces the h1 to display text all in one line */
+	color: black;
+	font-family: nightmare_codehackregular;
+}
+
+
+.questions-title h3 {
+	font-size: 5.5vw;
+	color: black;
+	font-family: nightmare_codehackregular;
+	/*templo_extranjeroregular;*/
+}
+
+/* ------------------------------------------- End ---------------------------------------------- */
+/* --------------------------------- Start Button ----------------------------------- */
+
+
+.start-button {
+	background-color: #d6810b; /*orange button color */
+	padding: 10px 60px; /* spacing around the button */
+	color: #f5dc90; /* text color */
+	font-size: 2vw;
+	white-space: nowrap;
+	position: absolute; /* since this is a class withinn banner-image-box, it's position is relative to the banner */
+	transform: translate(500%, 600%); /* move it up slightly so it intersects with the edge of the banner */
+	font-family: nightmare_codehackregular;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
